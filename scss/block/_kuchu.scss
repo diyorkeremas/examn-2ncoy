@@ -1,0 +1,211 @@
+.main {
+
+    background-image: url("../../images/Mask\ Group\ \(5\).png");
+    background-repeat: no-repeat;
+    height: 308px;
+    max-width: 1340px;
+    margin-bottom: 100px;
+}
+
+.main-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-family: 'Roboto';
+    margin-left: 200px;
+    margin-top: -200px;
+}
+
+.main-h3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+    // width: 494px;
+    // height: 48px;
+
+}
+
+.main-img {
+    position: relative;
+    top: -108px;
+}
+
+.main-input {
+    font-family: 'Roboto';
+    width: 335px;
+    height: 50px;
+    padding-left: 30px;
+}
+
+.main-links {
+    font-family: 'Roboto';
+    position: absolute;
+    width: 188px;
+    height: 50px;
+    background: #333333;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media screen and (max-width:1100px) {
+    .main {
+
+        background-image: url("../../images/Mask\ Group\ \(5\).png");
+        background-repeat: no-repeat;
+        height: 308px;
+        max-width: 1060px;
+        margin-bottom: 100px;
+    }
+
+    .main-title {
+        font-family: 'Roboto';
+        margin-left: 80px;
+        margin-top: -250px;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 50px;
+        width:1994px;
+        height: 48px;
+    }
+}
+@media screen and (max-width:950px) {
+    .main-img {
+        display: none;
+    }
+    .main-title {
+        font-family: 'Roboto';
+        margin-left: 150px;
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 50px;
+        width:554px;
+        height: 48px;
+        text-align: center;
+    }
+    .main {
+
+        background-image: url("../../images/Mask\ Group\ \(5\).png");
+        background-repeat: no-repeat;
+        height: 308px;
+        max-width: 900px;
+        margin-bottom: 100px;
+    }
+    .main-two {
+        margin-left: -200px;
+    }
+}
+@media screen and (max-width:780px) {
+    .main-title {
+        font-family: 'Roboto';
+        margin-left: 100px;
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 50px;
+        width:554px;
+        height: 48px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:700px) {
+    .main-title {
+        margin-left: 50px;
+        margin-top: 50px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 40px;
+        max-width:584px;
+        height: 8px;
+        
+    }
+    .main-input {
+        font-family: 'Roboto';
+        width: 205px;
+        height: 40px;
+        padding-left: 20px;
+    }
+    .main-links {
+        font-family: 'Roboto';
+        position: absolute;
+        width: 148px;
+        height: 40px;
+        background: #333333;
+        border-radius: 3px;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 3px;
+    }
+}
+@media screen and (max-width:590px) {
+    .main-title {
+        margin-left: 10px;
+        margin-top: 70px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 48px;
+        max-width:1294px;
+        height: 8px;
+        
+    }
+}
+@media screen and (max-width:460px) {
+    .main {
+        margin-top: -100px;
+    }
+    .main-input {
+        font-family: 'Roboto';
+        width: 155px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:410px) {
+    .main-input {
+        font-family: 'Roboto';
+        width: 125px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 9px;
+    }
+    .main-links {
+        font-family: 'Roboto';
+        position: absolute;
+        width: 108px;
+        height: 40px;
+        background: #333333;
+        border-radius: 3px;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 5px;
+    }
+    .main-two {
+        margin-left: -140px;
+    }
+}

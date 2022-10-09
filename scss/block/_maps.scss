@@ -1,0 +1,301 @@
+.sectio-maps {
+    width: 232px;
+    height: 652px;
+}
+.site-sectio {
+    margin-bottom: 100px;
+}
+.sectio-bg {
+    max-width: 1103px;
+    height: 649px;
+    background: #333333;
+    display: flex;
+
+}
+
+.sectio-duble {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectio-bgg__h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.sectio-bgg {
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.sectio-bgg__p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    width: 334px;
+    height: 40px;
+    margin-bottom: 50px;
+}
+
+.sectio-bgg__input1 {
+    font-family: 'Roboto';
+    width: 375px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.sectio-bgg__input2 {
+    font-family: 'Roboto';
+    width: 375px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.sectio-bgg__area {
+    font-family: 'Roboto';
+    width: 375px;
+    height: 165px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sectio-bgg__link {
+    font-family: 'Roboto';
+    position: absolute;
+    width: 226px;
+    height: 50px;
+    text-decoration: none;
+    background: #FFBD54;
+    border-radius: 0px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+.sectio-bgg__img {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.sectio-bgg__img2 {
+    position: relative;
+    top: -500px;
+}
+.sectio-bgg__img3 {
+    position: relative;
+    top: -600px;
+}
+@media screen and (max-width:1130px) {
+    .sectio-maps {
+        display: none;
+    }
+}
+@media screen and (max-width:1000px) {
+    .sectio-bg {
+        width: 1263px;
+        height: 649px;
+        background: #333333;
+        display: flex;
+    
+    }
+    .sectio-bgg__img {
+        display: none;
+    }
+}
+@media screen and (max-width:650px) {
+    .sectio-bgg__h1 {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 62px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    .sectio-bgg {
+        margin-left: 120px;
+        margin-top: 80px;
+    }
+    .sectio-bgg__p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #949494;
+        width: 334px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .sectio-bgg__input1 {
+        font-family: 'Roboto';
+        width: 315px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+    .sectio-bgg__input2 {
+        font-family: 'Roboto';
+        width: 315px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+    .sectio-bgg__area {
+        font-family: 'Roboto';
+        width: 315px;
+        height: 125px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+        padding-left: 30px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sectio-bgg__link {
+        font-family: 'Roboto';
+        position: absolute;
+        width: 186px;
+        height: 45px;
+        text-decoration: none;
+        background: #FFBD54;
+        border-radius: 0px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        padding-top: 12px;
+    }
+}
+@media screen and (max-width:530px) {
+    .sectio-bgg {
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:470px) {
+    .sectio-bgg__h1 {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 62px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    .sectio-bgg__p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #949494;
+        width: 284px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .sectio-bgg__input1 {
+        font-family: 'Roboto';
+        width: 270px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+    .sectio-bgg__input2 {
+        font-family: 'Roboto';
+        width: 270px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+    .sectio-bgg__area {
+        font-family: 'Roboto';
+        width: 270px;
+        height: 105px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+        padding-left: 30px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sectio-bgg__link {
+        font-family: 'Roboto';
+        position: absolute;
+        width: 140px;
+        height: 40px;
+        text-decoration: none;
+        background: #FFBD54;
+        border-radius: 0px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 21px;
+        color: #FFFFFF;
+        padding-top: 12px;
+    }
+    .sectio-bg {
+        margin-top: -150px;
+    }
+}
+@media screen and (max-width:420px) {
+    .sectio-bgg {
+        margin-left: 60px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:400px) {
+    .sectio-bgg {
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:380px) {
+    .sectio-bgg {
+        margin-left: 35px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:365px) {
+    .sectio-bgg {
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+}
